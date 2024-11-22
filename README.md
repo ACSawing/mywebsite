@@ -1,1 +1,164 @@
 # mywebsite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaska Concrete Sawing Inc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: url('background.jpg') no-repeat center center/cover;
+            background-size: cover;
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        header img {
+            height: 50px;
+            margin-right: -7rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            flex: 1;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: #fff;
+            padding: 0.75rem 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .container {
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 900px;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 1rem;
+        }
+        .service {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1rem;
+            border: 1px solid #ddd;
+            flex: 1 1 300px;
+            text-align: center;
+            color: white;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        ul.certifications-list {
+            list-style: none;
+            padding: 0;
+        }
+        ul.certifications-list li {
+            margin: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 0.5rem;
+        }
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            header {
+                flex-wrap: wrap;
+                text-align: center;
+            }
+            header img {
+                margin-bottom: -10rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ACS logo.png" alt="Alaska Concrete Sawing Logo">
+        <h1>Alaska Concrete Sawing Inc.</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to Alaska Concrete Sawing</h1>
+        <p>Your trusted partner in concrete cutting and demolition solutions.</p>
+    </div>
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Concrete Cutting</h3>
+                    <p>Precision cuts for construction and remodeling projects.</p>
+                </div>
+                <div class="service">
+                    <h3>Core Drilling</h3>
+                    <p>Accurate drilling for utilities and structural modifications.</p>
+                </div>
+                <div class="service">
+                    <h3>Demolition Support</h3>
+                    <p>Safe and efficient removal of concrete structures.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Since 1979, Alaska Concrete Sawing, is dedicated to providing precise and dependable concrete cutting services that help build and improve projects across Alaska and beyond. With a focus on innovation, safety, and exceptional customer service, we aim to be the trusted partner for contractors and communities, delivering solutions that support progress and durability.</p>
+            <p>Our fees are thoughtfully determined based on the scope and complexity of the work, the value provided, the conditions of execution, the time invested, and the extensive expertise of the seasoned professionals at ACS, Inc.</p>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="certifications-list">
+                <li>SOA DOT DBE- Woman Owned #9900948</li>
+                <li>SBA EDWOSB</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@alaskaconcretesawing.com</p>
+            <p>Phone: (907) 338-3300</p>
+            <p>Address: 2418 E 86th Ct, Anchorage, AK 99507</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Alaska Concrete Sawing. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
